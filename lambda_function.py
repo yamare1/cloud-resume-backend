@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     # connect to DynamoDB resource
     client = boto3.resource('dynamodb')
     
-    # create a DynamoDB client to visitor_count table
+    # create DynamoDB client to visitor_count table
     table = client.Table('visitor_count')
     
     # increment visitor_count for index.html
