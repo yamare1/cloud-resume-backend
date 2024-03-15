@@ -1,0 +1,1 @@
+Repository for Cloud Resume Challenge backend code - Python scripts for AWS Lambda functions and API Gateway. Implements the backend infrastructure and functionality for my Cloud Resume project, including visitor count tracking, DynamoDB interaction, and API endpoints.
